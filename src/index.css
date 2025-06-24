@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background: #fff;
+  color: #111;
+  margin: 2rem;
+}
+
+.app h1 {
+  margin-bottom: 1rem;
+}
+
+.content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+section {
+  flex: 1;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.plant-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.plant-image {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+.cart {
+  min-width: 200px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
